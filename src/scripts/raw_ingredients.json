@@ -1,0 +1,2227 @@
+{
+    "klass": "(void)",
+    "monitor": null,
+    "fields": {
+    "_items": {
+        "obj": {
+        "klass": "(void)",
+        "monitor": null
+        },
+        "bounds": null,
+        "max_length": 16,
+        "m_Items": [
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 4,
+                    "_firstChar": "Cuke"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 81,
+                    "_firstChar": "A refreshing can of Cuke that leaves you feeling energized. It's heaven in a can."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 4,
+                    "_firstChar": "cuke"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 7,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 0.5187560319900513,
+                    "b": 0.32549023628234863,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": null,
+                "ResellMultiplier": 0,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "Energizing"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 27,
+                            "_firstChar": "Increases the users energy."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "energizing"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0.3400000035762787,
+                        "ProductColor": {
+                            "r": 0.6042805314064026,
+                            "g": 1,
+                            "b": 0.4292452931404114,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.6039215922355652,
+                            "g": 1,
+                            "b": 0.4274509847164154,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.2199999988079071,
+                        "MixDirection": {
+                            "x": -0.9663099050521851,
+                            "y": 0.2573815882205963
+                        },
+                        "MixMagnitude": 2.2146105766296387
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 5,
+                    "_firstChar": "Donut"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 31,
+                    "_firstChar": "Yummy strawberry frosted donut."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 5,
+                    "_firstChar": "donut"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 1.401298464324817e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 13,
+                            "_firstChar": "Calorie-Dense"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 33,
+                            "_firstChar": "Results in immediate weight gain."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 12,
+                            "_firstChar": "caloriedense"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0.10000000149011612,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.5141509771347046,
+                            "b": 0.9657896161079407,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.5137255191802979,
+                            "b": 0.9647058844566345,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.2800000011920929,
+                        "MixDirection": {
+                            "x": 0.6944828629493713,
+                            "y": 0.7195092439651489
+                        },
+                        "MixMagnitude": 1.5983115434646606
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 12,
+                    "_firstChar": "Flu Medicine"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 63,
+                    "_firstChar": "Pain reliever and mild sedative used to alleviate flu symptoms."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 11,
+                    "_firstChar": "flumedicine"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 5.605193857299268e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "Sedating"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 37,
+                            "_firstChar": "Induces heavy sleepiness in the user."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "sedating"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0,
+                        "ProductColor": {
+                            "r": 0.26990845799446106,
+                            "g": 0.23638305068016052,
+                            "b": 0.6037735939025879,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.4180946946144104,
+                            "g": 0.37246349453926086,
+                            "b": 0.849056601524353,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.25999999046325684,
+                        "MixDirection": {
+                            "x": 0.9823386073112488,
+                            "y": -0.18711212277412415
+                        },
+                        "MixMagnitude": 2.1377556324005127
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 8,
+                    "_firstChar": "Gasoline"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 29,
+                    "_firstChar": "A jerry can full of gasoline."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 8,
+                    "_firstChar": "gasoline"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 7.006492321624085e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "Toxic"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 46,
+                            "_firstChar": "Damages the user's liver and induces vomiting."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "toxic"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0,
+                        "ProductColor": {
+                            "r": 0.37239760160446167,
+                            "g": 0.6037735939025879,
+                            "b": 0.19081522524356842,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.37254902720451355,
+                            "g": 0.6039215922355652,
+                            "b": 0.1921568661928177,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0,
+                        "MixDirection": {
+                            "x": 0.9545568227767944,
+                            "y": 0.2980290353298187
+                        },
+                        "MixMagnitude": 2.3152105808258057
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 12,
+                    "_firstChar": "Energy Drink"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 126,
+                    "_firstChar": "Tasty energy drink filled with lots of yummy chemicals to make you feel refreshed. Removes the effects of drugs when consumed."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 11,
+                    "_firstChar": "energydrink"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 7,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 1.401298464324817e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "Athletic"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 48,
+                            "_firstChar": "After consumption, the user is only able to run."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "athletic"
+                            }
+                        },
+                        "Tier": 3,
+                        "Addictiveness": 0.6069999933242798,
+                        "ProductColor": {
+                            "r": 0.4575471878051758,
+                            "g": 0.7877686023712158,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.4588235318660736,
+                            "g": 0.7882353067398071,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.3199999928474426,
+                        "MixDirection": {
+                            "x": -0.9678013920783997,
+                            "y": -0.25171515345573425
+                        },
+                        "MixMagnitude": 2.304191827774048
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 10,
+                    "_firstChar": "Mouth Wash"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 47,
+                    "_firstChar": "Antiseptic mouth wash for a minty fresh breath."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 9,
+                    "_firstChar": "mouthwash"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 4.203895392974451e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 7,
+                            "_firstChar": "Balding"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 27,
+                            "_firstChar": "Causes balding in the user."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 7,
+                            "_firstChar": "balding"
+                            }
+                        },
+                        "Tier": 3,
+                        "Addictiveness": 0,
+                        "ProductColor": {
+                            "r": 0.7830188870429993,
+                            "g": 0.5706445574760437,
+                            "b": 0.19575472176074982,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.7843137383460999,
+                            "g": 0.572549045085907,
+                            "b": 0.19607843458652496,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.30000001192092896,
+                        "MixDirection": {
+                            "x": -0.04677150025963783,
+                            "y": -0.998905599117279
+                        },
+                        "MixMagnitude": 2.9932758808135986
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "Banana"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 42,
+                    "_firstChar": "Elongated yellow fruit, rich in potassium."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "banana"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 7.006492321624085e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "Gingeritis"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 49,
+                            "_firstChar": "After consumption, the user will become a ginger."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "gingeritis"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.5330237150192261,
+                            "b": 0.1650943160057068,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.5333333611488342,
+                            "b": 0.16470588743686676,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.20000000298023224,
+                        "MixDirection": {
+                            "x": -0.28382715582847595,
+                            "y": -0.9588754773139954
+                        },
+                        "MixMagnitude": 2.0857765674591064
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 5,
+                    "_firstChar": "Chili"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 18,
+                    "_firstChar": "Yummy spicy chili."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 5,
+                    "_firstChar": "chili"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 5.605193857299268e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "Spicy"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 52,
+                            "_firstChar": "Consumption results in the user's eyes turning blue."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "spicy"
+                            }
+                        },
+                        "Tier": 3,
+                        "Addictiveness": 0.6650000214576721,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.4190198481082916,
+                            "b": 0.2971698045730591,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.41960784792900085,
+                            "b": 0.2980392277240753,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.3799999952316284,
+                        "MixDirection": {
+                            "x": 0.7509380578994751,
+                            "y": 0.6603726148605347
+                        },
+                        "MixMagnitude": 2.6500189304351807
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 9,
+                    "_firstChar": "Motor Oil"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 76,
+                    "_firstChar": "Specially formulated oil used for lubricating the moving stuff in an engine."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 8,
+                    "_firstChar": "motoroil"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 2.802596928649634e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "Slippery"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 62,
+                            "_firstChar": "Reduces the user's ability to maintain traction on the ground."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 8,
+                            "_firstChar": "slippery"
+                            }
+                        },
+                        "Tier": 3,
+                        "Addictiveness": 0.3089999854564667,
+                        "ProductColor": {
+                            "r": 0.6367924213409424,
+                            "g": 0.8749682307243347,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.6352941393852234,
+                            "g": 0.8745098114013672,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.3400000035762787,
+                        "MixDirection": {
+                            "x": 0.7756485342979431,
+                            "y": -0.6311649680137634
+                        },
+                        "MixMagnitude": 2.6300570964813232
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "Iodine"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 93,
+                    "_firstChar": "Chemical element that is an essential nutrient in a healthy diet. It also has other purposes."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "iodine"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 1.401298464324817e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 11,
+                            "_firstChar": "Jennerising"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 26,
+                            "_firstChar": "Inverts the user's gender."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 11,
+                            "_firstChar": "jennerising"
+                            }
+                        },
+                        "Tier": 4,
+                        "Addictiveness": 0.34299999475479126,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.551886796951294,
+                            "b": 0.980181872844696,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.5529412031173706,
+                            "b": 0.9803921580314636,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.41999998688697815,
+                        "MixDirection": {
+                            "x": -0.4293588101863861,
+                            "y": -0.9031340479850769
+                        },
+                        "MixMagnitude": 3.377128839492798
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 11,
+                    "_firstChar": "Paracetamol"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 32,
+                    "_firstChar": "Mild over-the-counter painkiller"
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 11,
+                    "_firstChar": "paracetamol"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 2.802596928649634e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 6,
+                            "_firstChar": "Sneaky"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 30,
+                            "_firstChar": "Silences the users foot steps."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 6,
+                            "_firstChar": "sneaky"
+                            }
+                        },
+                        "Tier": 2,
+                        "Addictiveness": 0.3269999921321869,
+                        "ProductColor": {
+                            "r": 0.4811320900917053,
+                            "g": 0.4811320900917053,
+                            "b": 0.4811320900917053,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.48235294222831726,
+                            "g": 0.48235294222831726,
+                            "b": 0.48235294222831726,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.23999999463558197,
+                        "MixDirection": {
+                            "x": 0.3640427887439728,
+                            "y": -0.9313822388648987
+                        },
+                        "MixMagnitude": 2.115135908126831
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "Viagor"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 59,
+                    "_firstChar": "Great for treating altitude sickness, and some other stuff."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 6,
+                    "_firstChar": "viagor"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 2.802596928649634e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 14,
+                            "_firstChar": "Tropic Thunder"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 30,
+                            "_firstChar": "Inverts the user's skin color."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 13,
+                            "_firstChar": "tropicthunder"
+                            }
+                        },
+                        "Tier": 4,
+                        "Addictiveness": 0.8029999732971191,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.621865451335907,
+                            "b": 0.2783018946647644,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.6235294342041016,
+                            "b": 0.27843138575553894,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.46000000834465027,
+                        "MixDirection": {
+                            "x": 0.9358153939247131,
+                            "y": -0.35249045491218567
+                        },
+                        "MixMagnitude": 3.2057604789733887
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 11,
+                    "_firstChar": "Horse Semen"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 43,
+                    "_firstChar": "A big jug of ethically sourced horse semen."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 10,
+                    "_firstChar": "horsesemen"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 4.203895392974451e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "Long faced"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 60,
+                            "_firstChar": "Considerably increases the size of the user's head and neck."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "giraffying"
+                            }
+                        },
+                        "Tier": 5,
+                        "Addictiveness": 0.6069999933242798,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.855385422706604,
+                            "b": 0.3820754885673523,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.8549019694328308,
+                            "b": 0.3803921639919281,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.5199999809265137,
+                        "MixDirection": {
+                            "x": -0.06810091435909271,
+                            "y": 0.9976783990859985
+                        },
+                        "MixMagnitude": 2.9368181228637695
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 9,
+                    "_firstChar": "Mega Bean"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 45,
+                    "_firstChar": "An unusually large bean of mysterious origin."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 8,
+                    "_firstChar": "megabean"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 4.203895392974451e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "Foggy"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 46,
+                            "_firstChar": "Causes a cloud of fog to form around the user."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 5,
+                            "_firstChar": "foggy"
+                            }
+                        },
+                        "Tier": 3,
+                        "Addictiveness": 0.10000000149011612,
+                        "ProductColor": {
+                            "r": 0.6886792182922363,
+                            "g": 0.6886792182922363,
+                            "b": 0.6886792182922363,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.6901960968971252,
+                            "g": 0.6901960968971252,
+                            "b": 0.6901960968971252,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.36000001430511475,
+                        "MixDirection": {
+                            "x": 0.22389750182628632,
+                            "y": 0.9746126532554626
+                        },
+                        "MixMagnitude": 2.2778279781341553
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 4,
+                    "_firstChar": "Addy"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 52,
+                    "_firstChar": "Like meth except legal. Used to stimulate cognition."
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 4,
+                    "_firstChar": "addy"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 2.802596928649634e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 17,
+                            "_firstChar": "Thought-Provoking"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 38,
+                            "_firstChar": "Increases the size of the user's head."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 16,
+                            "_firstChar": "thoughtprovoking"
+                            }
+                        },
+                        "Tier": 4,
+                        "Addictiveness": 0.3700000047683716,
+                        "ProductColor": {
+                            "r": 1,
+                            "g": 0.6273584961891174,
+                            "b": 0.7948635220527649,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 1,
+                            "g": 0.6274510025978088,
+                            "b": 0.7960784435272217,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.4399999976158142,
+                        "MixDirection": {
+                            "x": -0.8621033430099487,
+                            "y": -0.5067325234413147
+                        },
+                        "MixMagnitude": 3.039078712463379
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        },
+        {
+            "klass": "(void)",
+            "monitor": null,
+            "fields": {
+            "StorableItemDefinition": {
+                "DefnFields": {
+                "UnityScriptableFields": "(void)",
+                "Name": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 7,
+                    "_firstChar": "Battery"
+                    }
+                },
+                "Description": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 35,
+                    "_firstChar": "Small battery used to power stuff.\t"
+                    }
+                },
+                "ID": {
+                    "klass": "(void)",
+                    "monitor": null,
+                    "fields": {
+                    "_stringLength": 7,
+                    "_firstChar": "battery"
+                    }
+                },
+                "Icon": "(void)",
+                "Category": 9,
+                "Keywords": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 0,
+                    "m_Items": []
+                },
+                "AvailableInDemo": true,
+                "LabelDisplayColor": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                },
+                "StackLimit": 20,
+                "Equippable": "(void)",
+                "CustomItemUI": null,
+                "CustomInfoContent": null,
+                "legalStatus": 0
+                },
+                "BasePurchasePrice": 0,
+                "ShopCategories": "(void)",
+                "RequiresLevelToPurchase": true,
+                "ScheduleOne_Levelling_FullRank_o": "(void)",
+                "ResellMultiplier": 7.006492321624085e-45,
+                "StoredItem": "(void)",
+                "StationItem": "(void)"
+            },
+            "Properties": {
+                "klass": "(void)",
+                "monitor": null,
+                "fields": {
+                "_items": {
+                    "obj": {
+                    "klass": "(void)",
+                    "monitor": null
+                    },
+                    "bounds": null,
+                    "max_length": 1,
+                    "m_Items": [
+                    {
+                        "klass": "(void)",
+                        "monitor": null,
+                        "fields": {
+                        "UnityScriptableFields": "(void)",
+                        "Name": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 11,
+                            "_firstChar": "Bright-Eyed"
+                            }
+                        },
+                        "Description": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 37,
+                            "_firstChar": "Causes the user's eyes to emit light."
+                            }
+                        },
+                        "ID": {
+                            "klass": "(void)",
+                            "monitor": null,
+                            "fields": {
+                            "_stringLength": 10,
+                            "_firstChar": "brighteyed"
+                            }
+                        },
+                        "Tier": 4,
+                        "Addictiveness": 0.20000000298023224,
+                        "ProductColor": {
+                            "r": 0.75,
+                            "g": 0.9710584282875061,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "LabelColor": {
+                            "r": 0.7490196228027344,
+                            "g": 0.9725490212440491,
+                            "b": 1,
+                            "a": 1
+                        },
+                        "ImplementedPriorMixingRework": true,
+                        "ValueChange": 0,
+                        "ValueMultiplier": 1,
+                        "AddBaseValueMultiple": 0.4000000059604645,
+                        "MixDirection": {
+                            "x": 0.9999129176139832,
+                            "y": -0.013200170360505581
+                        },
+                        "MixMagnitude": 3.030263900756836
+                        }
+                    }
+                    ]
+                },
+                "_size": 1,
+                "_version": 0,
+                "_syncRoot": null
+                }
+            }
+            }
+        }
+        ]
+    },
+    "_size": 16,
+    "_version": 0,
+    "_syncRoot": null
+    }
+}

@@ -1,0 +1,36 @@
+{
+	"name": "mix-calculator",
+	"version": "1.0.0",
+	"description": "Schedule One mix calculator based on the real algorithm",
+	"main": "dist/index.html",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Dezzmeister/mix-calculator.git"
+	},
+	"author": "Joe Desmond",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Dezzmeister/mix-calculator/issues"
+	},
+	"homepage": "https://github.com/Dezzmeister/mix-calculator#readme",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"transform-data": "node --experimental-strip-types ./src/scripts/transform_data.ts",
+		"find-combos": "node --experimental-strip-types ./src/scripts/find_combos.ts"
+	},
+	"dependencies": {
+		"preact": "10.25.3",
+		"preact-iso": "2.9.2",
+		"preact-render-to-string": "6.5.13"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "2.9.3",
+		"@types/node": "22.16.0",
+		"typescript": "5.8.3",
+		"vite": "6.0.4"
+	}
+}

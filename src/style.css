@@ -1,0 +1,155 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: #ccc;
+	background-color: #1a1a1a;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	min-height: 100vh;
+}
+
+#app {
+	max-width: 1600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	margin-bottom: 1.5rem;
+}
+
+img:hover {
+	filter: drop-shadow(0 0 2em #673ab8aa);
+}
+
+.mix-ingredient-chip,
+.mix-ingredient-chip-nohover {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3px 10px;
+	border-radius: 8px;
+	border: 2px solid #888;
+	background: #111;
+	min-width: 200px;
+}
+
+.mix-ingredient-chip {
+	cursor: pointer;
+}
+
+.mix-ingredient-chip:hover {
+	border-color: #eee;
+}
+
+.property-chip {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 0;
+	justify-content: space-between;
+	padding: 3px 10px;
+	border-radius: 8px;
+	border: 2px solid #888;
+	background: #111;
+	max-width: 150px;
+}
+
+.mix-ingredient-list,
+.property-list,
+.property-diff-list,
+.combo-list {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.property-diff-list .property-chip,
+.combo-list .property-chip {
+	width: 150px;
+}
+
+.property-diff-row,
+.combo-list-row {
+	display: flex;
+	gap: 5px;
+}
+
+.connector {
+	width: 1.2em;
+	text-align: center;
+	padding-top: 0.3em;
+}
+
+.dummy {
+	visibility: hidden;
+}
+
+.property-chip.dummy {
+	height: 1.5em;
+}
+
+.mix-calculator {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.mix-calculator-side-column {
+	width: 320px;
+}
+
+.mix-calculator-side-column p {
+	text-align: left;
+}
+
+.mixer-map-container {
+	width: 700px;
+}
+
+.mixer-map {
+	width: 700px;
+	height: 700px;
+	border: 1px solid #ccc;
+}
+
+.mixer-map circle:hover {
+	fill: #444;
+	cursor: pointer;
+}
+
+.result-lists {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.result-property-list {
+	width: 53%;
+}
+
+.result-ingredient-list {
+	width: 230px;
+}
+
+@media (max-width: 639px) {
+	#app {
+		margin: 2rem;
+	}
+	section {
+		margin-top: 5rem;
+		grid-template-columns: 1fr;
+		row-gap: 1rem;
+	}
+}
