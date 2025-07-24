@@ -65,6 +65,7 @@ export const MixCalculator: React.FunctionComponent<{}> = () => {
 						sum lands in. You can see which properties will be replaced when you
 						hover over a mix ingredient on the right.
 					</p>
+					<h4><a href="./attributions.html">Attributions</a></h4>
 				</div>
 				<div>
 					<h2>Mixer Map</h2>
