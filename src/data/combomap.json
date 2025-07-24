@@ -1,538 +1,538 @@
 {
-  "Bright-Eyed": [
+  "brighteyed": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Sedating"
+      "existingProperty": "calming",
+      "newProperty": "sedating"
     },
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Tropic Thunder"
+      "newProperty": "tropicthunder"
     },
     {
-      "existingProperty": "Sneaky",
-      "newProperty": "Spicy"
+      "existingProperty": "sneaky",
+      "newProperty": "spicy"
     },
     {
-      "existingProperty": "Spicy",
-      "newProperty": "Sneaky"
+      "existingProperty": "spicy",
+      "newProperty": "sneaky"
     }
   ],
-  "Anti-gravity": [
+  "antigravity": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Balding"
+      "existingProperty": "calming",
+      "newProperty": "balding"
     },
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Sneaky"
+      "existingProperty": "munchies",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Paranoia",
-      "newProperty": "Slippery"
+      "existingProperty": "paranoia",
+      "newProperty": "slippery"
     },
     {
-      "existingProperty": "Smelly",
-      "newProperty": "Gingeritis"
+      "existingProperty": "smelly",
+      "newProperty": "gingeritis"
     }
   ],
-  "Sneaky": [
+  "sneaky": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Gingeritis"
+      "existingProperty": "calming",
+      "newProperty": "gingeritis"
     },
     {
-      "existingProperty": "Calorie-Dense",
-      "newProperty": "Balding"
+      "existingProperty": "caloriedense",
+      "newProperty": "balding"
     },
     {
-      "existingProperty": "Toxic",
-      "newProperty": "Jennerising"
+      "existingProperty": "toxic",
+      "newProperty": "jennerising"
     },
     {
-      "existingProperty": "Athletic",
-      "newProperty": "Tropic Thunder"
+      "existingProperty": "athletic",
+      "newProperty": "tropicthunder"
     },
     {
-      "existingProperty": "Balding",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "balding",
+      "newProperty": "caloriedense"
     },
     {
-      "existingProperty": "Jennerising",
-      "newProperty": "Toxic"
+      "existingProperty": "jennerising",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Tropic Thunder",
-      "newProperty": "Athletic"
+      "existingProperty": "tropicthunder",
+      "newProperty": "athletic"
     }
   ],
-  "Balding": [
+  "balding": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Jennerising"
+      "existingProperty": "calming",
+      "newProperty": "jennerising"
     },
     {
-      "existingProperty": "Paranoia",
-      "newProperty": "Sneaky"
+      "existingProperty": "paranoia",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Schizophrenic",
-      "newProperty": "Athletic"
+      "existingProperty": "schizophrenic",
+      "newProperty": "athletic"
     }
   ],
-  "Slippery": [
+  "slippery": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Sneaky"
+      "existingProperty": "calming",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Sedating"
+      "existingProperty": "munchies",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Anti-gravity",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "antigravity",
+      "newProperty": "caloriedense"
     }
   ],
-  "Glowing": [
+  "glowie": [
     {
-      "existingProperty": "Calming",
-      "newProperty": "Foggy"
+      "existingProperty": "calming",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Disorienting",
-      "newProperty": "Toxic"
+      "existingProperty": "disorienting",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Cyclopean",
-      "newProperty": "Bright-Eyed"
+      "existingProperty": "cyclopean",
+      "newProperty": "brighteyed"
     }
   ],
-  "Laxative": [
+  "laxative": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Energizing"
+      "newProperty": "energizing"
     },
     {
-      "existingProperty": "Athletic",
-      "newProperty": "Foggy"
+      "existingProperty": "athletic",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Athletic"
+      "existingProperty": "foggy",
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Lethal",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "lethal",
+      "newProperty": "caloriedense"
     }
   ],
-  "Toxic": [
+  "toxic": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Sedating"
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Spicy"
+      "existingProperty": "munchies",
+      "newProperty": "spicy"
     },
     {
-      "existingProperty": "Disorienting",
-      "newProperty": "Tropic Thunder"
+      "existingProperty": "disorienting",
+      "newProperty": "tropicthunder"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Slippery"
+      "existingProperty": "foggy",
+      "newProperty": "slippery"
     },
     {
-      "existingProperty": "Slippery",
-      "newProperty": "Foggy"
+      "existingProperty": "slippery",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Glowing",
-      "newProperty": "Sneaky"
+      "existingProperty": "glowie",
+      "newProperty": "sneaky"
     }
   ],
-  "Spicy": [
+  "spicy": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Toxic"
+      "newProperty": "toxic"
     }
   ],
-  "Energizing": [
+  "energizing": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Athletic"
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Thought-Provoking"
+      "existingProperty": "foggy",
+      "newProperty": "thoughtprovoking"
     },
     {
-      "existingProperty": "Seizure-Inducing",
-      "newProperty": "Long faced"
+      "existingProperty": "seizure",
+      "newProperty": "giraffying"
     },
     {
-      "existingProperty": "Thought-Provoking",
-      "newProperty": "Foggy"
+      "existingProperty": "thoughtprovoking",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Cyclopean",
-      "newProperty": "Gingeritis"
+      "existingProperty": "cyclopean",
+      "newProperty": "gingeritis"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "shrinking",
+      "newProperty": "caloriedense"
     }
   ],
-  "Sedating": [
+  "sedating": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Slippery"
+      "newProperty": "slippery"
     },
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Toxic"
+      "existingProperty": "munchies",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Explosive",
-      "newProperty": "Balding"
+      "existingProperty": "explosive",
+      "newProperty": "balding"
     }
   ],
-  "Seizure-Inducing": [
+  "seizure": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Jennerising"
+      "newProperty": "jennerising"
     },
     {
       "existingProperty": "Focused",
-      "newProperty": "Gingeritis"
+      "newProperty": "gingeritis"
     }
   ],
-  "Zombifying": [
+  "zombifying": [
     {
       "existingProperty": "Euphoric",
-      "newProperty": "Bright-Eyed"
+      "newProperty": "brighteyed"
     }
   ],
   "Euphoric": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Calorie-Dense"
+      "newProperty": "caloriedense"
     },
     {
-      "existingProperty": "Energizing",
-      "newProperty": "Toxic"
+      "existingProperty": "energizing",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Toxic",
-      "newProperty": "Energizing"
+      "existingProperty": "toxic",
+      "newProperty": "energizing"
     },
     {
-      "existingProperty": "Athletic",
-      "newProperty": "Spicy"
+      "existingProperty": "athletic",
+      "newProperty": "spicy"
     },
     {
-      "existingProperty": "Laxative",
-      "newProperty": "Sedating"
+      "existingProperty": "laxative",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Spicy",
-      "newProperty": "Athletic"
+      "existingProperty": "spicy",
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Electrifying",
-      "newProperty": "Bright-Eyed"
+      "existingProperty": "electrifying",
+      "newProperty": "brighteyed"
     },
     {
-      "existingProperty": "Explosive",
-      "newProperty": "Thought-Provoking"
+      "existingProperty": "explosive",
+      "newProperty": "thoughtprovoking"
     }
   ],
-  "Calming": [
+  "calming": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Sedating"
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "munchies",
+      "newProperty": "caloriedense"
     },
     {
-      "existingProperty": "Paranoia",
-      "newProperty": "Toxic"
+      "existingProperty": "paranoia",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Sneaky",
-      "newProperty": "Foggy"
+      "existingProperty": "sneaky",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Sneaky"
+      "existingProperty": "foggy",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Laxative",
-      "newProperty": "Tropic Thunder"
+      "existingProperty": "laxative",
+      "newProperty": "tropicthunder"
     },
     {
-      "existingProperty": "Anti-gravity",
-      "newProperty": "Long faced"
+      "existingProperty": "antigravity",
+      "newProperty": "giraffying"
     }
   ],
-  "Shrinking": [
+  "shrinking": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Athletic"
+      "newProperty": "athletic"
     }
   ],
-  "Jennerising": [
+  "jennerising": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Balding"
+      "newProperty": "balding"
     },
     {
-      "existingProperty": "Paranoia",
-      "newProperty": "Gingeritis"
+      "existingProperty": "paranoia",
+      "newProperty": "gingeritis"
     }
   ],
-  "Gingeritis": [
+  "gingeritis": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Sneaky"
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Calorie-Dense",
-      "newProperty": "Jennerising"
+      "existingProperty": "caloriedense",
+      "newProperty": "jennerising"
     },
     {
-      "existingProperty": "Sedating",
-      "newProperty": "Thought-Provoking"
+      "existingProperty": "sedating",
+      "newProperty": "thoughtprovoking"
     },
     {
-      "existingProperty": "Jennerising",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "jennerising",
+      "newProperty": "caloriedense"
     },
     {
-      "existingProperty": "Thought-Provoking",
-      "newProperty": "Sedating"
+      "existingProperty": "thoughtprovoking",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Tropic Thunder"
+      "existingProperty": "shrinking",
+      "newProperty": "tropicthunder"
     }
   ],
-  "Disorienting": [
+  "disorienting": [
     {
       "existingProperty": "Focused",
-      "newProperty": "Foggy"
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Glowing",
-      "newProperty": "Athletic"
+      "existingProperty": "glowie",
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Electrifying",
-      "newProperty": "Toxic"
+      "existingProperty": "electrifying",
+      "newProperty": "toxic"
     }
   ],
-  "Athletic": [
+  "athletic": [
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Energizing"
+      "existingProperty": "munchies",
+      "newProperty": "energizing"
     },
     {
-      "existingProperty": "Electrifying",
-      "newProperty": "Sneaky"
+      "existingProperty": "electrifying",
+      "newProperty": "sneaky"
     }
   ],
-  "Schizophrenic": [
+  "schizophrenic": [
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Slippery"
+      "existingProperty": "munchies",
+      "newProperty": "slippery"
     }
   ],
-  "Tropic Thunder": [
+  "tropicthunder": [
     {
-      "existingProperty": "Munchies",
-      "newProperty": "Bright-Eyed"
+      "existingProperty": "munchies",
+      "newProperty": "brighteyed"
     },
     {
-      "existingProperty": "Sneaky",
-      "newProperty": "Toxic"
+      "existingProperty": "sneaky",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Toxic",
-      "newProperty": "Sneaky"
+      "existingProperty": "toxic",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Anti-gravity",
-      "newProperty": "Spicy"
+      "existingProperty": "antigravity",
+      "newProperty": "spicy"
     }
   ],
-  "Thought-Provoking": [
+  "thoughtprovoking": [
     {
-      "existingProperty": "Refreshing",
-      "newProperty": "Jennerising"
+      "existingProperty": "refreshing",
+      "newProperty": "jennerising"
     },
     {
-      "existingProperty": "Energizing",
-      "newProperty": "Gingeritis"
+      "existingProperty": "energizing",
+      "newProperty": "gingeritis"
     },
     {
-      "existingProperty": "Gingeritis",
-      "newProperty": "Energizing"
+      "existingProperty": "gingeritis",
+      "newProperty": "energizing"
     }
   ],
-  "Explosive": [
+  "explosive": [
     {
-      "existingProperty": "Calorie-Dense",
-      "newProperty": "Calorie-Dense"
+      "existingProperty": "caloriedense",
+      "newProperty": "caloriedense"
     }
   ],
-  "Electrifying": [
+  "electrifying": [
     {
-      "existingProperty": "Disorienting",
-      "newProperty": "Athletic"
+      "existingProperty": "disorienting",
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Thought-Provoking",
-      "newProperty": "Long faced"
+      "existingProperty": "thoughtprovoking",
+      "newProperty": "giraffying"
     },
     {
-      "existingProperty": "Long faced",
-      "newProperty": "Thought-Provoking"
+      "existingProperty": "giraffying",
+      "newProperty": "thoughtprovoking"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Foggy"
+      "existingProperty": "shrinking",
+      "newProperty": "foggy"
     }
   ],
   "Focused": [
     {
-      "existingProperty": "Disorienting",
-      "newProperty": "Gingeritis"
+      "existingProperty": "disorienting",
+      "newProperty": "gingeritis"
     },
     {
-      "existingProperty": "Seizure-Inducing",
-      "newProperty": "Foggy"
+      "existingProperty": "seizure",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Lethal",
-      "newProperty": "Sedating"
+      "existingProperty": "lethal",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Toxic"
+      "existingProperty": "shrinking",
+      "newProperty": "toxic"
     }
   ],
-  "Munchies": [
+  "munchies": [
     {
-      "existingProperty": "Energizing",
-      "newProperty": "Slippery"
+      "existingProperty": "energizing",
+      "newProperty": "slippery"
     },
     {
-      "existingProperty": "Sedating",
-      "newProperty": "Athletic"
+      "existingProperty": "sedating",
+      "newProperty": "athletic"
     },
     {
-      "existingProperty": "Athletic",
-      "newProperty": "Sedating"
+      "existingProperty": "athletic",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Slippery",
-      "newProperty": "Energizing"
+      "existingProperty": "slippery",
+      "newProperty": "energizing"
     },
     {
-      "existingProperty": "Lethal",
-      "newProperty": "Tropic Thunder"
+      "existingProperty": "lethal",
+      "newProperty": "tropicthunder"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Bright-Eyed"
+      "existingProperty": "shrinking",
+      "newProperty": "brighteyed"
     }
   ],
-  "Paranoia": [
+  "paranoia": [
     {
-      "existingProperty": "Energizing",
-      "newProperty": "Sneaky"
+      "existingProperty": "energizing",
+      "newProperty": "sneaky"
     },
     {
-      "existingProperty": "Sneaky",
-      "newProperty": "Energizing"
+      "existingProperty": "sneaky",
+      "newProperty": "energizing"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Jennerising"
+      "existingProperty": "foggy",
+      "newProperty": "jennerising"
     },
     {
-      "existingProperty": "Jennerising",
-      "newProperty": "Foggy"
+      "existingProperty": "jennerising",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Sedating"
+      "existingProperty": "shrinking",
+      "newProperty": "sedating"
     }
   ],
-  "Cyclopean": [
+  "cyclopean": [
     {
-      "existingProperty": "Energizing",
-      "newProperty": "Foggy"
+      "existingProperty": "energizing",
+      "newProperty": "foggy"
     },
     {
-      "existingProperty": "Foggy",
-      "newProperty": "Energizing"
+      "existingProperty": "foggy",
+      "newProperty": "energizing"
     }
   ],
-  "Smelly": [
+  "smelly": [
     {
-      "existingProperty": "Gingeritis",
-      "newProperty": "Toxic"
+      "existingProperty": "gingeritis",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Toxic",
-      "newProperty": "Gingeritis"
+      "existingProperty": "toxic",
+      "newProperty": "gingeritis"
     }
   ],
-  "Refreshing": [
+  "refreshing": [
     {
-      "existingProperty": "Gingeritis",
-      "newProperty": "Long faced"
+      "existingProperty": "gingeritis",
+      "newProperty": "giraffying"
     },
     {
-      "existingProperty": "Glowing",
-      "newProperty": "Thought-Provoking"
+      "existingProperty": "glowie",
+      "newProperty": "thoughtprovoking"
     },
     {
-      "existingProperty": "Electrifying",
-      "newProperty": "Sedating"
+      "existingProperty": "electrifying",
+      "newProperty": "sedating"
     },
     {
-      "existingProperty": "Long faced",
-      "newProperty": "Gingeritis"
+      "existingProperty": "giraffying",
+      "newProperty": "gingeritis"
     },
     {
-      "existingProperty": "Shrinking",
-      "newProperty": "Spicy"
+      "existingProperty": "shrinking",
+      "newProperty": "spicy"
     }
   ],
-  "Foggy": [
+  "foggy": [
     {
-      "existingProperty": "Laxative",
-      "newProperty": "Toxic"
+      "existingProperty": "laxative",
+      "newProperty": "toxic"
     },
     {
-      "existingProperty": "Cyclopean",
-      "newProperty": "Sedating"
+      "existingProperty": "cyclopean",
+      "newProperty": "sedating"
     }
   ],
-  "Long faced": [
+  "giraffying": [
     {
-      "existingProperty": "Laxative",
-      "newProperty": "Spicy"
+      "existingProperty": "laxative",
+      "newProperty": "spicy"
     }
   ],
-  "Calorie-Dense": [
+  "caloriedense": [
     {
-      "existingProperty": "Laxative",
-      "newProperty": "Bright-Eyed"
+      "existingProperty": "laxative",
+      "newProperty": "brighteyed"
     }
   ]
 }

@@ -2,17 +2,16 @@ import React from "preact";
 import combomap from "../data/combomap.json" with { type: "json" };
 import { Property } from "../utils/types";
 import { PropertyChip } from "./PropertyChip";
+import { getDataModel } from "../utils/transform";
 
 type ComboListProps = {
-    readonly allProperties: readonly Property[];
     readonly desiredProperty: Property;
 };
 
 export const ComboList: React.FunctionComponent<ComboListProps> = ({
-    allProperties,
     desiredProperty
 }) => {
-    if (!(desiredProperty.name in combomap)) {
+    if (!(desiredProperty.id in combomap)) {
         return (
             <div className="combo-list">
                 <h3>How to make <strong style={{ color: desiredProperty.labelColor }}>
@@ -23,10 +22,11 @@ export const ComboList: React.FunctionComponent<ComboListProps> = ({
         );
     }
 
-    const combos = combomap[desiredProperty.name as keyof typeof combomap];
+    const combos = combomap[desiredProperty.id as keyof typeof combomap];
+    const allProperties = getDataModel().allProperties;
     const comboProperties = combos.map(({ existingProperty, newProperty }) => [
-        allProperties.find(p => p.name === existingProperty)!,
-        allProperties.find(p => p.name === newProperty)!
+        allProperties.find(p => p.id === existingProperty)!,
+        allProperties.find(p => p.id === newProperty)!
     ]);
 
     return (

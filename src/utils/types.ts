@@ -5,11 +5,7 @@ export interface Vector2 {
 
 export interface Property {
     readonly name: string;
-    readonly description: string;
     readonly id: string;
-    readonly tier: number;
-    readonly addictiveness: number;
-    readonly productColor: string;
     readonly labelColor: string;
     readonly mixDirection: Vector2;
     readonly mixMagnitude: number;
@@ -31,22 +27,13 @@ export interface Reaction {
     readonly output: Property;
 }
 
-export interface ItemDefinition {
-    readonly name: string;
-    readonly description: string;
-    readonly id: string;
-    readonly category: number;
-    readonly labelDisplayColor: string;
-}
-
 export interface MixIngredient {
-    readonly itemDefn: ItemDefinition;
-    readonly properties: readonly Property[];
+    readonly name: string;
+    readonly property: Property;
 }
 
-export interface ProductManager {
-    readonly weedMixMap: MixerMap;
-    readonly methMixMap: MixerMap;
-    readonly cokeMixMap: MixerMap;
+export interface DataModel {
+    readonly mixerMap: MixerMap;
     readonly mixIngredients: readonly MixIngredient[];
+    readonly allProperties: readonly Property[];
 }

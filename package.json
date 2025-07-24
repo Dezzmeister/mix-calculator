@@ -18,6 +18,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
+		"clean": "shx rm -rf dist",
 		"preview": "vite preview",
 		"transform-data": "node --experimental-strip-types ./src/scripts/transform_data.ts",
 		"find-combos": "node --experimental-strip-types ./src/scripts/find_combos.ts"
@@ -30,6 +31,7 @@
 	"devDependencies": {
 		"@preact/preset-vite": "2.9.3",
 		"@types/node": "22.16.0",
+		"shx": "0.4.0",
 		"typescript": "5.8.3",
 		"vite": "6.0.4"
 	}

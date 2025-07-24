@@ -3,8 +3,8 @@
  * The result is a JSON file called "combomap.json" keyed by desired effect.
  */
 /// <reference types="node" />
-import productManager from "../data/product_manager.json" with { type: "json" };
 import { getNewEffect } from "../utils/mix_calculator.ts";
+import { getDataModel } from "../utils/transform.ts";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -20,10 +20,10 @@ type ComboMap = {
 main();
 
 function main(): void {
-    // Assume that all mixer maps are the same (this might not be true in the future)
-    const mixerMap = productManager.methMixMap;
+    const model = getDataModel();
+    const mixerMap = model.mixerMap;
     const effects = mixerMap.effects;
-    const ingredientProperties = productManager.mixIngredients.map(i => i.properties[0]);
+    const ingredientProperties = model.mixIngredients.map(i => i.property);
     const comboMap: ComboMap = {};
 
     for (let i = 0; i < effects.length; i++) {
@@ -34,10 +34,10 @@ function main(): void {
             const newEffect = getNewEffect(mixerMap, effect, property);
 
             if (newEffect !== null) {
-                comboMap[newEffect.property.name] ||= [];
-                comboMap[newEffect.property.name].push({
-                    existingProperty: effect.property.name,
-                    newProperty: property.name,
+                comboMap[newEffect.property.id] ||= [];
+                comboMap[newEffect.property.id].push({
+                    existingProperty: effect.property.id,
+                    newProperty: property.id,
                 });
             }
         }

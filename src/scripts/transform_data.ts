@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import type { Effect, ItemDefinition, MixerMap, MixIngredient, ProductManager, Property } from "../utils/types";
+import type { Effect, MixerMap, Property, Vector2 } from "../utils/types";
 import rawMixMaps from "./raw_mixmaps.json" with { type: "json" };
 import rawMixIngredients from "./raw_ingredients.json" with { type: "json" };
 import fs from "node:fs";
@@ -10,34 +10,42 @@ type RawProperty = RawMixerMap["fields"]["Effects"]["fields"]["_items"]["m_Items
 type RawMixIngredient = (typeof rawMixIngredients)["fields"]["_items"]["m_Items"][number];
 type RawColor = RawProperty["fields"]["LabelColor"];
 
+type MixIngredientOut = {
+    readonly name: string;
+    readonly propertyId: string;
+};
+
+type JSONOut = {
+    mixerMap: {
+        mapRadius: number;
+        effects: readonly {
+            position: Vector2;
+            radius: number;
+            property: Property;
+        }[];
+    };
+    mixIngredients: readonly MixIngredientOut[];
+};
+
 main();
 
 function main() {
-    const productManager: ProductManager = {
-        weedMixMap: mapMixerMap(rawMixMaps.WeedMixMap),
-        methMixMap: mapMixerMap(rawMixMaps.MethMixMap),
-        cokeMixMap: mapMixerMap(rawMixMaps.CokeMixMap),
+    const dataModel: JSONOut = {
+        mixerMap: mapMixerMap(rawMixMaps.MethMixMap),
         mixIngredients: rawMixIngredients.fields._items.m_Items.map(mapMixIngredient),
     };
 
-    const productManagerPath = path.resolve(import.meta.dirname, "..", "data", "product_manager.json");
-    fs.writeFileSync(productManagerPath, JSON.stringify(productManager, undefined, 2));
+    const dataModelPath = path.resolve(import.meta.dirname, "..", "data", "model.json");
+    fs.writeFileSync(dataModelPath, JSON.stringify(dataModel, undefined, 2));
 }
 
-function mapMixIngredient(data: RawMixIngredient): MixIngredient {
+function mapMixIngredient(data: RawMixIngredient): MixIngredientOut {
     const rawItemDefn = data.fields.StorableItemDefinition.DefnFields;
-    const properties = data.fields.Properties.fields._items.m_Items.map(mapProperty);
-    const itemDefn: ItemDefinition = {
-        name: rawItemDefn.Name.fields._firstChar,
-        description: rawItemDefn.Description.fields._firstChar,
-        id: rawItemDefn.ID.fields._firstChar,
-        category: rawItemDefn.Category,
-        labelDisplayColor: mapColor(rawItemDefn.LabelDisplayColor),
-    };
+    const properties = data.fields.Properties.fields._items.m_Items;
 
     return {
-        itemDefn,
-        properties,
+        name: rawItemDefn.Name.fields._firstChar,
+        propertyId: properties[0].fields.ID.fields._firstChar,
     };
 }
 
@@ -61,11 +69,7 @@ function mapMixerMap(data: RawMixerMap): MixerMap {
 function mapProperty(prop: RawProperty): Property {
     return {
         name: prop.fields.Name.fields._firstChar,
-        description: prop.fields.Description.fields._firstChar,
         id: prop.fields.ID.fields._firstChar,
-        tier: prop.fields.Tier,
-        addictiveness: prop.fields.Addictiveness,
-        productColor: mapColor(prop.fields.ProductColor),
         labelColor: mapColor(prop.fields.LabelColor),
         mixDirection: prop.fields.MixDirection,
         mixMagnitude: prop.fields.MixMagnitude,

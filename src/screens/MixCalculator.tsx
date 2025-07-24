@@ -1,12 +1,12 @@
 import React from "preact";
 import { MixerMap } from "../components/MixerMap";
-import productManager from "../data/product_manager.json";
 import { MixIngredientList } from "../components/MixIngredientList";
 import { MixIngredient, Property } from "../utils/types";
-import { useMemo, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
 import { PropertyDiffList, PropertyList } from "../components/PropertyList";
 import { mixProperties } from "../utils/mix_calculator";
 import { ComboList } from "../components/ComboList";
+import { getDataModel } from "../utils/transform";
 
 export const MixCalculator: React.FunctionComponent<{}> = () => {
 	const [existingProperties, setExistingProperties] = useState<Property[]>([]);
@@ -14,16 +14,14 @@ export const MixCalculator: React.FunctionComponent<{}> = () => {
 	const [ingredients, setMixIngredients] = useState<MixIngredient[]>([]);
 	const [desiredProperty, setDesiredProperty] = useState<Property | undefined>();
 
-	const allProperties = useMemo(() => {
-		return productManager.methMixMap.effects.map(e => e.property);
-	}, []);
+	const model = getDataModel();
 
 	const resultProperties = (() => {
 		if (!nextProperty) {
 			return <PropertyList properties={existingProperties} withDummy />
 		}
 
-		const newProperties = mixProperties(productManager.methMixMap, existingProperties, nextProperty);
+		const newProperties = mixProperties(model.mixerMap, existingProperties, nextProperty);
 
 		return (
 			<PropertyDiffList
@@ -72,7 +70,7 @@ export const MixCalculator: React.FunctionComponent<{}> = () => {
 					<h2>Mixer Map</h2>
 					<div>
 						<MixerMap
-							mixerMap={productManager.methMixMap}
+							mixerMap={model.mixerMap}
 							padding={15}
 							scale={100}
 							existingProperties={existingProperties}
@@ -97,18 +95,17 @@ export const MixCalculator: React.FunctionComponent<{}> = () => {
 				<div className="mix-calculator-side-column">
 					<h2>Mix Ingredients</h2>
 					<MixIngredientList
-						mixIngredients={productManager.mixIngredients}
+						mixIngredients={model.mixIngredients}
 						onIngredientAddedToMix={(ingredient) => {
 							setExistingProperties(
-								mixProperties(productManager.methMixMap, existingProperties, ingredient.properties[0])
+								mixProperties(model.mixerMap, existingProperties, ingredient.property)
 							);
 							setMixIngredients(mixIngredients => [...mixIngredients, ingredient]);
 						}}
-						onIngredientHovered={(ingredient) => setNextProperty(ingredient?.properties[0])}
+						onIngredientHovered={(ingredient) => setNextProperty(ingredient?.property)}
 					/>
 					{desiredProperty && (
 						<ComboList
-							allProperties={allProperties}
 							desiredProperty={desiredProperty}
 						/>
 					)}

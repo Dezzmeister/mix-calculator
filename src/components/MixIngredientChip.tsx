@@ -14,17 +14,17 @@ export const MixIngredientChip: React.FunctionComponent<MixIngredientChipProps> 
 }) => {
     return (
         <div 
-            key={mixIngredient.itemDefn.id}
+            key={mixIngredient.name}
             className={onClick ? "mix-ingredient-chip" : "mix-ingredient-chip-nohover"}
             onMouseEnter={() => onHover?.(true)}
             onMouseLeave={() => onHover?.(false)}
             onClick={onClick}
         >
-            <strong>{mixIngredient.itemDefn.name}</strong>
+            <strong>{mixIngredient.name}</strong>
             <span
-                style={{ color: mixIngredient.properties[0].labelColor }}
+                style={{ color: mixIngredient.property.labelColor }}
             >
-                {mixIngredient.properties[0].name}
+                {mixIngredient.property.name}
             </span>
         </div>
     );

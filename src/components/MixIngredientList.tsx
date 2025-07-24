@@ -18,8 +18,14 @@ export const MixIngredientList: React.FunctionComponent<MixIngredientListProps> 
             {mixIngredients.map(mixIngredient => (
                 <MixIngredientChip
                     mixIngredient={mixIngredient}
-                    onClick={onIngredientAddedToMix && (() => onIngredientAddedToMix(mixIngredient))}
-                    onHover={onIngredientHovered && ((isHovered) => onIngredientHovered(isHovered ? mixIngredient : undefined))}
+                    onClick={
+                        onIngredientAddedToMix &&
+                        (() => onIngredientAddedToMix(mixIngredient))
+                    }
+                    onHover={
+                        onIngredientHovered &&
+                        ((isHovered) => onIngredientHovered(isHovered ? mixIngredient : undefined))
+                    }
                 />
             ))}
         </div>
