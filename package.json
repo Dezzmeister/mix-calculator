@@ -17,7 +17,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
+		"build": "tsc && vite build && shx cp robots.txt dist/",
 		"clean": "shx rm -rf dist",
 		"preview": "vite preview",
 		"transform-data": "node --experimental-strip-types ./src/scripts/transform_data.ts",

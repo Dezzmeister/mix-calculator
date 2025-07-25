@@ -88,3 +88,8 @@ that produce each effect.
 ## TODOs
 
 _None for now!_
+
+## License
+
+mix-calculator is licensed under the GNU Affero Public License 3 or any later version at your choice. See
+[COPYING](https://github.com/Dezzmeister/mix-calculator/blob/master/COPYING) for details.

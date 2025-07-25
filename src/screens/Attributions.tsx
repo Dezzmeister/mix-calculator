@@ -1,3 +1,20 @@
+/*
+ * This file is part of mix-calculator, a Schedule One mix calculator.
+ * Copyright (C) 2024  Joe Desmond
+ *
+ * mix-calculator is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+ *
+ * mix-calculator is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with mix-calculator.  If not, see <https://www.gnu.org/licenses/>.
+ */
 import React from "preact";
 
 export const Attributions: React.FunctionComponent = () => {
@@ -31,12 +48,23 @@ export const Attributions: React.FunctionComponent = () => {
                     <p>
                         This site was built with <a href="https://preactjs.com/">Preact</a> and
                         {" "}<a href="https://www.typescriptlang.org/">Typescript</a>.
-                        The site is served by <a href="https://github.com/Dezzmeister/gru-http">gru-http</a>{" "}
+                        The site is served by <a href="https://github.com/Dezzmeister/gru-http">gru-http</a> (my own web server)
                         behind <a href="https://nginx.org/">nginx</a> for TLS.
                     </p>
                     <p>
-                        Source code is available at
+                        gru-http is licensed under the GNU Affero Public License 3 or any later version at your choice. See
+                        {" "}<a href="https://github.com/Dezzmeister/gru-http/blob/master/COPYING">COPYING</a> for details.
+                    </p>
+                </section>
+                <hr />
+                <section>
+                    <p>
+                        Source code for mix-calculator is available at
                         {" "}<a href="https://github.com/Dezzmeister/mix-calculator">https://github.com/Dezzmeister/mix-calculator</a>.
+                    </p>
+                    <p>
+                        mix-calculator is licensed under the GNU Affero Public License 3 or any later version at your choice. See
+                        {" "}<a href="https://github.com/Dezzmeister/mix-calculator/blob/master/COPYING">COPYING</a> for details.
                     </p>
                 </section>
             </section>
