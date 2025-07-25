@@ -87,4 +87,4 @@ that produce each effect.
 
 ## TODOs
 
- - Page icons
+_None for now!_

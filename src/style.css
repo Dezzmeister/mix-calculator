@@ -25,14 +25,6 @@ body {
 	text-align: center;
 }
 
-img {
-	margin-bottom: 1.5rem;
-}
-
-img:hover {
-	filter: drop-shadow(0 0 2em #673ab8aa);
-}
-
 .mix-ingredient-chip,
 .mix-ingredient-chip-nohover {
 	display: flex;
