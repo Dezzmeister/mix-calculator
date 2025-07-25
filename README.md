@@ -87,5 +87,4 @@ that produce each effect.
 
 ## TODOs
 
- - "x" buttons on ingredients
  - Page icons

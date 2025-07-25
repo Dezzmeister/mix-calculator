@@ -6,16 +6,18 @@ type MixIngredientListProps = {
     readonly mixIngredients: readonly MixIngredient[];
     readonly onIngredientAddedToMix?: (ingredient: MixIngredient) => void;
     readonly onIngredientHovered?: (ingredient: MixIngredient | undefined) => void;
+    readonly onIngredientDeleted?: (index: number) => void;
 };
 
 export const MixIngredientList: React.FunctionComponent<MixIngredientListProps> = ({
     mixIngredients,
     onIngredientAddedToMix,
-    onIngredientHovered
+    onIngredientHovered,
+    onIngredientDeleted
 }) => {
     return (
         <div className="mix-ingredient-list">
-            {mixIngredients.map(mixIngredient => (
+            {mixIngredients.map((mixIngredient, i) => (
                 <MixIngredientChip
                     mixIngredient={mixIngredient}
                     onClick={
@@ -25,6 +27,10 @@ export const MixIngredientList: React.FunctionComponent<MixIngredientListProps> 
                     onHover={
                         onIngredientHovered &&
                         ((isHovered) => onIngredientHovered(isHovered ? mixIngredient : undefined))
+                    }
+                    onDelete={
+                        onIngredientDeleted &&
+                        (() => onIngredientDeleted(i))
                     }
                 />
             ))}

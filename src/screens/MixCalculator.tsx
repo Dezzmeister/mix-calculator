@@ -9,9 +9,9 @@ import { ComboList } from "../components/ComboList";
 import { getDataModel } from "../utils/transform";
 
 export const MixCalculator: React.FunctionComponent<{}> = () => {
-	const [existingProperties, setExistingProperties] = useState<Property[]>([]);
+	const [existingProperties, setExistingProperties] = useState<readonly Property[]>([]);
 	const [nextProperty, setNextProperty] = useState<Property | undefined>();
-	const [ingredients, setMixIngredients] = useState<MixIngredient[]>([]);
+	const [ingredients, setMixIngredients] = useState<readonly MixIngredient[]>([]);
 	const [desiredProperty, setDesiredProperty] = useState<Property | undefined>();
 
 	const model = getDataModel();
@@ -87,7 +87,22 @@ export const MixCalculator: React.FunctionComponent<{}> = () => {
 								</div>
 								<div className="result-ingredient-list">
 									<h3>Ingredients</h3>
-									<MixIngredientList mixIngredients={ingredients} />
+									<MixIngredientList
+										mixIngredients={ingredients}
+										onIngredientDeleted={(idx) => setMixIngredients((ingredients) => {
+											const newIngredients = [...ingredients];
+											newIngredients.splice(idx, 1);
+											let newProps: Property[] = [];
+
+											for (const ingredient of newIngredients) {
+												newProps = mixProperties(model.mixerMap, newProps, ingredient.property);
+											}
+
+											setExistingProperties(newProps);
+
+											return newIngredients;
+										})}
+									/>
 								</div>
 							</div>
 						</div>

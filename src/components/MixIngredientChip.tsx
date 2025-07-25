@@ -5,12 +5,14 @@ type MixIngredientChipProps = {
     readonly mixIngredient: MixIngredient;
     readonly onHover?: (isHovered: boolean) => void;
     readonly onClick?: () => void;
+    readonly onDelete?: () => void;
 };
 
 export const MixIngredientChip: React.FunctionComponent<MixIngredientChipProps> = ({
     mixIngredient,
     onHover,
-    onClick
+    onClick,
+    onDelete
 }) => {
     return (
         <div 
@@ -20,7 +22,8 @@ export const MixIngredientChip: React.FunctionComponent<MixIngredientChipProps> 
             onMouseLeave={() => onHover?.(false)}
             onClick={onClick}
         >
-            <strong>{mixIngredient.name}</strong>
+            {onDelete && <strong className="mix-ingredient-chip-delete" onClick={() => onDelete()}>✖</strong>}
+            <strong className="mix-ingredient-chip-name">{mixIngredient.name}</strong>
             <span
                 style={{ color: mixIngredient.property.labelColor }}
             >

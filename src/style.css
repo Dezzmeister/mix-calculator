@@ -53,6 +53,17 @@ img:hover {
 	border-color: #eee;
 }
 
+.mix-ingredient-chip-delete {
+	cursor: pointer;
+	color: red;
+	margin-right: 10px;
+}
+
+.mix-ingredient-chip-name {
+	flex: 1;
+	text-align: left;
+}
+
 .property-chip {
 	display: flex;
 	flex-direction: row;
