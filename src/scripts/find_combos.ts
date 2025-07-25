@@ -1,6 +1,6 @@
 /*
  * This file is part of mix-calculator, a Schedule One mix calculator.
- * Copyright (C) 2024  Joe Desmond
+ * Copyright (C) 2025  Joe Desmond
  *
  * mix-calculator is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
